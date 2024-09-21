@@ -147,8 +147,15 @@ html,body
   }
   .search-box
   {
+    border-top: 1px solid black;
     height: 50px;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
   }
   .search-box input
   {
@@ -157,6 +164,7 @@ html,body
     border: none;
     outline: none;
     padding-left: 10px;
+    /* background-color: red; */
 
   }
   .search-box input::placeholder
@@ -176,5 +184,9 @@ html,body
     .icon-outer i
     {
         padding-top: 10px;
+    }
+    .search-box input
+    {
+      width: 85%;
     }
 }
