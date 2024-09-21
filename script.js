@@ -14,8 +14,6 @@ function slideani()
     })
 }
 slideani()
-let a = document.getElementsByClassName('search-box')
+// let a = document.getElementsByClassName('search-box')
 
-let b = document.getElementsByClassName('close')
-
-\
+// let b = document.getElementsByClassName('close')
