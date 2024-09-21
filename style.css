@@ -9,6 +9,7 @@ html,body
 {
     height: 100%;
     width: 100%;
+    overflow-x:hidden;
 }
 #header
 {
@@ -72,6 +73,101 @@ html,body
     position: absolute;
     top: 0px;
 }
+.empty1 h1
+{
+    position: relative;
+    top: 300px;
+    left: 30px;
+    font-size: 3vw;
+}
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #f3cf4f03;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #222324;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #1c1c1d;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #ffc107;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+  
+  .cta
+  {
+    position: relative;
+    top: 320px;
+    left: 30px;
+  }
+  .search-box
+  {
+    height: 50px;
+    width: 100%;
+  }
+  .search-box input
+  {
+    height: 50px;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+
+  }
+  .search-box input::placeholder
+  {
+    font-size: 2vmax;
+    font-weight: 900;
+  }
+  .search-box i
+  {
+    font-size: 2vmax;
+  }
 @media (max-width : 649px) {
     .icon-outer
     {
