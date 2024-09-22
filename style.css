@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: Brother-1816-Thin !important; */
 }
 html,body
 {
@@ -11,7 +11,7 @@ html,body
     width: 100%;
     overflow-x:hidden;
 }
-#header
+.header
 {
     position: sticky;
     top: 0px;
@@ -156,6 +156,7 @@ html,body
     align-items: center;
     justify-content: space-evenly;
     display: none;
+    
   }
   .search-box input
   {
@@ -176,6 +177,77 @@ html,body
   {
     font-size: 2vmax;
   }
+  .whatsapp-i
+  {
+    font-size: 4vmax;
+    position: fixed;
+    top: 650px;
+    left: 40px;
+    -webkit-text-fill-color: #4fc75b;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(251, 247, 247);
+  }
+  /* From Uiverse.io by SujitAdroja */ 
+.btn1 {
+  /* background-color: rgb(145, 176, 49); */
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid rgb(20, 19, 20);
+  padding: 5px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 500;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.btn1:hover {
+  color: rgb(17, 17, 17);
+}
+
+.btn1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #f7cb1b;
+  z-index: -1;
+  transition: all 1s;
+}
+footer ul
+{
+  list-style-type: none;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.foot1 ul li
+{
+  display: inline;
+  margin-left: 10px;
+  font-size: 2vmax;
+}
+
+
+.btn1:hover::before {
+  width: 160%;
+}
+footer input
+{
+  width: 300px;
+  height: 30px;
+  outline: none;
+  padding: 15px 5px;
+}
+
 @media (max-width : 649px) {
     .icon-outer
     {
@@ -189,4 +261,10 @@ html,body
     {
       width: 85%;
     }
+    .whatsapp-i
+    {
+      font-size: 5vmax;
+      top: 510px;
+    }
+
 }
