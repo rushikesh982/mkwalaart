@@ -5,4 +5,10 @@ $(document).ready(function(){
     $('.search').click(function(){
         $('.search-box').slideToggle()
     })
+    $('.col-close-icon').click(function(){
+        $('.v-menu-outer').css('display','block')
+    })
+    $('.close2').click(function(){
+        $('.v-menu-outer').css('display','none')
+    })
 })
