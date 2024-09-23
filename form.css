@@ -17,7 +17,45 @@ html,body
 }
 .form-outer
 {
-    height: 300px;
-    max-width: 300px;
-    border: 1px solid black;
+    margin-top: 50px;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+form,table{
+    width: 100%;
+}
+
+form input
+{
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+}
+form .log-btn
+{
+    width: 100%;
+    margin-top: 15px;
+}
+.logWith
+{
+    width: 48%;
+    margin-top: 10px;
+}
+.terms
+{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav
+{
+    border-bottom: 1px solid black;
+}
+footer
+{
+    margin-top: 80px;
+    border-top: 1px solid black;
 }
