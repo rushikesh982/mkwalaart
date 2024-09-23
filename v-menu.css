@@ -1,0 +1,66 @@
+.v-menu-outer
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.422);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  display: none;
+}
+.v-menu
+{
+  height: 100vh;
+  width: 350px;
+  background-color: #1c1b1b;
+  color: white;
+  padding-right: 50px;
+  position: relative;
+  /* display: none; */
+}
+.v-menu ul
+{
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.v-menu a
+{
+  color: white;
+  text-decoration: none;
+}
+.v-menu li
+{
+  padding-bottom: 10px;
+  margin-top: 40px;
+  border-bottom: 0.2px solid rgb(97, 94, 94);
+
+}
+.v-menu span a
+{
+  color: rgb(96, 95, 95);
+  margin: 40px 0px 0px 35px;
+  font-weight: bold;
+}
+.menu-icon-outer
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2vw;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-top: 1px solid rgb(95, 93, 93);
+}
+.menu-icon-outer i
+{
+  margin-left: 20px;
+  font-size: 3vmax;
+}
+.v-menu .close2
+{
+  font-size: 2vmax;
+  margin:20px 0px 0px 24px;
+}
