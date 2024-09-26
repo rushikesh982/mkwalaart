@@ -20,3 +20,13 @@ html,body
 {
     border: none !important;
 }
+.card-text-box
+{
+    width: 100%;
+    gap: 50;
+
+}
+.card-text-box p
+{
+    display: inline;
+}

@@ -17,3 +17,19 @@ slideani()
 // let a = document.getElementsByClassName('search-box')
 
 // let b = document.getElementsByClassName('close')
+
+gsap.from('.card',{
+    y:100,
+    opacity:0,
+    duration:.1,
+    delay:.1,
+    color:'purple',
+    stagger:1,
+    // markers:true,
+    scrollTrigger:{
+        trigger:'.card-box',
+        scroller:'body',
+        // markers:true,
+        start:'top 60%'
+    }
+})
