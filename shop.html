@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loginform</title>
+    <title>all products</title>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="v-menu.css">
+    <link rel="stylesheet" href="shop.css">
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -16,10 +16,9 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
 />
-
 </head>
 <body>
-     <!-- mini nav -->
+    <!-- mini nav -->
    <section>
     <div class="container-fluid">
         <div class="row">
@@ -40,14 +39,14 @@
                 </a>
             </div>
             <div class="col-4 text-end icon-outer">
-                <i class="ri-user-2-fill d-none d-sm-block"></i>
+                <a href="loginForm.html"><i class="ri-user-2-fill d-none d-sm-block"></i></a>
                 <i class="ri-search-line search"></i>
                 <i class="ri-shopping-cart-fill"></i>
             </div>
             <div class="col-12 nav-items text-center fw-semibold pt-5 d-none d-xl-block">
                 <ul>
                     <li><a href="index.html">home</a></li>
-                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="">shop</a></li>
                     <li><a href="">new arrival</a></li>
                     <li><a href="">traditional rangoli art</a></li>
                     <li><a href="">diy</a></li>
@@ -62,84 +61,82 @@
             </div>
         </div>
     </div>
-    <i class="ri-whatsapp-fill whatsapp-i"></i>
-
    </nav>
-   <!-- vnav -->
-   <section>
-    <div class="v-menu-outer">
-        <div class="v-menu">
-            <i class="ri-close-line close2"></i>
-            <ul>
-                <a href=""></a>
-                <li><a href="index.html">home</a></li>
-                <li><a href="shop.html">shop</a></li>
-                <li><a href="">new arrival</a></li>
-                <li><a href="">traditional rangoli art</a></li>
-                <li><a href="">diy</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-            <span><a href="loginForm.html" class="text-capitalize">acount</a></span>
-            <div class="menu-icon-outer">
-                <i class="ri-facebook-circle-line"></i>
-                <i class="ri-instagram-line"></i>
-                <i class="ri-whatsapp-line"></i>
+    <!-- v-meun  -->
+    <section>
+        <div class="v-menu-outer">
+            <div class="v-menu">
+                <i class="ri-close-line close2"></i>
+                <ul>
+                    <a href=""></a>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="">new arrival</a></li>
+                    <li><a href="">traditional rangoli art</a></li>
+                    <li><a href="">diy</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+                <span><a href="loginForm.html" class="text-capitalize">acount</a></span>
+                <div class="menu-icon-outer">
+                    <i class="ri-facebook-circle-line"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-whatsapp-line"></i>
+                </div>
+            </div>
+    
+        </div>
+       </section>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="shopImagebeforeHover/1shop.avif" alt="">
+                    </div>
+                    <div class="card-foot">
+                        <p>diy multiplaayer kingfisher kit</p>
+                        <div>
+                            <p class="text-danger inline">rs 299</p>
+                            <p class="inline"><del class="inline">rs 310</del></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="shopImagebeforeHover/2.avif" alt="">
+                    </div>
+                    <div class="card-foot"></div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="shopImagebeforeHover/3.avif" alt="">
+                    </div>
+                    <div class="card-foot"></div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="shopImagebeforeHover/4.avif" alt="">
+                    </div>
+                    <div class="card-foot"></div>
+                </div>
             </div>
         </div>
+    </div>
 
-    </div>
-   </section>
-   <!-- form -->
-   <section class="form-sec">
-    <div class="form-outer">
-        <form action="abc.html">
-            <table class="text-center">
-                <tr>
-                    <td>
-                        <h3 class="text-uppercase">login</h3>
-                        <p>Please enter your e-mail and password:</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="email"></td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="password"></td>
-                </tr>
-                <tr>
-                    <td><button class="btn btn-outline-warning log-btn">login</button></td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="mt-3 mb-3">don't have an acount?<a href="#">create one</a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button class="logWith btn btn-primary">facebook login</button>
-                        <button class="logWith btn btn-danger">google login</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button class="logWith btn btn-info">linkedin login</button>
-                        <button class="logWith btn btn-warning">amazon login</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="terms">By clicking any of the social login buttons you agree to the terms of privacy policy described <a href="#">here</a></p>
-                    </td>
-                </tr>
-                
-            </table>
-            
-            
-            
-        </form>
-    </div>
-   </section>
+
+
    <!-- footer -->
    <footer>
     <div class="container-fluid">
@@ -188,6 +185,12 @@
 
 
 
+
+
+    <!-- gsap  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+   <script src="script.js"></script>
+
    <!-- jquery -->
    <script src="cdn/jquery-3.7.1 (1).js"></script>
    <script src="cdn/jquery-3.7.1.js"></script>
@@ -197,6 +200,5 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
    <script src="jqery1.js"></script>
-   <script src="script.js"></script>
 </body>
 </html>

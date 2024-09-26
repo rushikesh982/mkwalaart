@@ -156,6 +156,7 @@ html,body
     align-items: center;
     justify-content: space-evenly;
     display: none;
+    border-bottom: 1px solid black;
     
   }
   .search-box input

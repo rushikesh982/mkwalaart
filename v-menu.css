@@ -63,4 +63,10 @@
 {
   font-size: 2vmax;
   margin:20px 0px 0px 24px;
+  cursor: pointer;
+}
+.col-close-icon
+{
+  cursor: pointer;
+
 }
