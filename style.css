@@ -156,7 +156,7 @@ html,body
     align-items: center;
     justify-content: space-evenly;
     display: none;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     
   }
   .search-box input
@@ -221,6 +221,10 @@ html,body
   background-color: #f7cb1b;
   z-index: -1;
   transition: all 1s;
+}
+footer
+{
+  border-top: 1px solid black;
 }
 footer ul
 {
