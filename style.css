@@ -177,6 +177,11 @@ html,body
   .search-box i
   {
     font-size: 2vmax;
+    cursor: pointer;
+  }
+  .search
+  {
+    cursor: pointer;
   }
   .whatsapp-i
   {
