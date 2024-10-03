@@ -21,8 +21,8 @@ slideani()
 gsap.from('.card',{
     y:100,
     opacity:0,
-    duration:.1,
-    delay:.1,
+    duration:0.1,
+    delay:.0,
     color:'purple',
     stagger:1,
     // markers:true,

@@ -11,4 +11,10 @@ $(document).ready(function(){
     $('.close2').click(function(){
         $('.v-menu-outer').css('display','none')
     })
+    $('.card').hover(function(){
+        $('.card').css({'cursor':'pointer',})
+    })
+    $('.card').click(function(){
+        alert('hello  it is work')
+    })
 })
